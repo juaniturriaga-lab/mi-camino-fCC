@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Que esperas de los capítulos que faltan de DareDevil Born Again?</h1>
+      <p id="description">Queremos saber tu opinion!!</p>
+    </header>
+    <main>
+      <form id="survey-form" action="/enviar-datos" method="POST">
+         
+          <label for="name-label" id="name-label">Nombre</label>
+          <input type="text" id="name" name="usuario" placeholder="Escribí tu nombre" required>
+        
+          <label for="email-label" id="email-label">Email</label>
+          <input type="email" id="email" name="email" placeholder="Escribí tu email" required>
+
+          <label for="number-label" id="number-label">Edad (opcional):</label>
+          <input type="number" name="age" id="number" min="3" max="100" placeholder="Edad" />
+
+      
+      <fieldset>
+          <label for="dropdown">¿Cuantas personas se carga Bullseye?:</label>
+        <select id="dropdown" name="opciones">
+          <option value="Mayor-30">Más de 30</option>
+          <option value="Pasa-los-100">Pasa los 100</option>
+        </select>
+      </fieldset>
+
+
+      <fieldset>  
+        <legend>¿Crees que pueda haber más cameos importantes?</legend>
+          <input id="boton-si" type="radio" name="cameos" value="si" />
+          <label for="boton-si">Si</label>
+          
+          <input id="boton-no" type="radio" name="cameos" value="no" />
+          <label for="boton-no">No</label>
+      </fieldset>
+
+
+        <fieldset>
+          <legend>
+            ¿Cuál personaje sentís va a tener la mejor escena de acción?
+          </legend>
+
+          <input type="checkbox" id="DareDevil" name="choice" value="DareDevil" />
+          <label for="DareDevil">DareDevil</label>
+
+          <input
+            type="checkbox"
+            id="Bullseye"
+            name="choice"
+            value="Bullseye"
+          />
+          <label for="Bullseye">Bullseye</label>
+          
+          <input type="checkbox" id="Kingping" name="choice" value="Kingping" />
+          <label for="Kingping">Kingping</label>
+
+          <input
+            checked
+            type="checkbox"
+            id="El espadachin"
+            name="choice"
+            value="El espadachin"
+          />
+          <label for="El espadachin">El Espadachín</label>
+          
+          <input type="checkbox" id="Jessica-Jones" name="choice" value="Jessica-Jones" />
+          <label for="Jessica-Jones">Jessica Jones</label>    
+        </fieldset>
+
+        <fieldset>
+          <label for="comments">Tenes teorías falopa? Agregalas en la caja de comentarios!!</label>
+        <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+        <fieldset>
+        <button type="submit" id="submit">Enviar encuesta</button>  
+
+      </form>
+    </main>
+
+
+  </body>
+</html>
