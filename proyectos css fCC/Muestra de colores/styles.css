@@ -1,0 +1,53 @@
+body {
+  background-color: #f4f4f4
+}
+
+h1 {
+  text-align: center;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 
+              0 6px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.color-box:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15), 
+              0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.color1 {
+  background-color: #5f5
+}
+
+.color2 {
+  background-color: rgb(25 200 190);
+}
+
+.color3 {
+  background-color: RebeccaPurple;
+}
+
+.color4 {
+background-color:  hsl(305, 100%, 81%);
+}
+
+.color5 {
+  background-color: coral
+}
+
+.color-grid {
+  text-align: center;
+}
