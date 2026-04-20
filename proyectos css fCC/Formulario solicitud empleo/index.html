@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Solicitud de empleo</h1>
+        
+    <div class="container">
+        <form>
+            <label for="name" class="user">Usuario</label>
+            <input type="text" id="name" class:"username" placeholder="user123">
+            <label for="email" class="email">Email</label>
+            <input type="email" id="email" class="email"/ placeholder="correo@correo.com"/>
+            
+            <hr>
+            
+            <select id="position" class="position">
+                <option class="lista-trabajos">Puesto aplicar</option>
+                <option value="webdesigner">Web Designer</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backtend">Backend Developer</option>
+            </select>
+
+            <hr>
+            
+            <fieldset class="radio-group" name="availability">
+                <legend>Disponibilidad<legend>
+              
+              
+              <input type="radio" id="part-time" name="availability" class="disponibilidad">
+              <label for="part-time" class= "part-time">Part Time</label>
+              
+              <input type="radio" id="full-time" name="availability" class="disponibilidad">
+              <label for="full-time"class="full-time">Full-time</label>
+              
+            </fieldset>
+            
+            <hr>
+            
+            <legend class="message">¿Qué te motivo a postularte?</legend>
+            <textarea id="message">Escribí tu respuesta:</textarea>
+            
+            <hr>
+            
+            <button type="submit" class:"submit">¡Postulate!</button>
+            <hr>
+
+        </form>
+    </div>
+</body>
+</html>
