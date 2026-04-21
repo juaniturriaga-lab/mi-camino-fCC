@@ -45,4 +45,7 @@ input[type="checkbox"]:checked::after {
   content: "✓";
   display:block;
   text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 20px;
 }
