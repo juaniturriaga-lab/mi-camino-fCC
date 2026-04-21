@@ -1,0 +1,43 @@
+.form-container {
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 300px;
+  text-align: center;
+  background-color: #BFA500;
+  border: 1px solid #4D4300;
+  vertical-align: center;
+}
+
+label {
+  margin: 10px 20px;
+  color: #116608;
+  display: block;
+  text-align: center;
+}
+
+input, textarea, submit {
+  display: inline-block;
+}
+
+input, textarea {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #27F56C;
+  font-size: 1.1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 
+              0 6px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px); 
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15), 
+              0 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: #4704D9;
+  color: whitesmoke;
+}
