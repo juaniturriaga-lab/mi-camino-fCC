@@ -1,0 +1,69 @@
+body {
+    background-color: #f4f4f4;
+    width: 90%;
+    max-width: 1000px; 
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-align: center; }
+
+.fondo-carta1, .fondo-carta2, .fondo-carta3, .fondo-carta4, .fondo-carta5 {
+    display: inline-block;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    vertical-align: top;
+    transition: all 0.3s;
+}
+
+.fondo-carta1 { background-image: url("https://phantom.estaticos-marca.com/a5f5c37b7575a8572743ffae8247914f/resize/990/f/webp/assets/multimedia/imagenes/2022/03/04/16463970566201.jpg"); }
+.fondo-carta2 { background-image: url("https://static.zenmarket.jp/images/blog/nvqab3ck.wdl"); }
+.fondo-carta3 { background-image: url("https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/01/s-l1600.jpg"); }
+.fondo-carta4 { background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQi99lVsqVuqIH0oQsxqlbVkIAbbtd6cV9E826KzHTYONKzY06SgehcBpBpx6i_S-RvIJAxf9GDvuICHmPCayh2jvBb8nWNwWrh5rbX1JoyEwvMjyUH4PP8HA"); }
+.fondo-carta5 { background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSssYFKwdcc3xU8d2excOpbSN-Dms7MgJQigkXhmhLg19FknAZxK0DMWUNuRXn6ksfafua03tMUUjatEsLpFU7IU-gbdpDO92WFjI7pEVdA"); }
+
+
+label {
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: left;
+  border: 2px solid gold;
+  background-color: white;
+  font-size: 12px;
+  transition: all 0.3s;
+}
+
+
+input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  appearance: none;
+  border: 2px solid #f1be32;
+  border-radius: 4px;
+  background-color: white;
+vertical-align: middle;
+  margin-right: 15px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: gold;
+  border-color: orange;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  display:block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 20px;
+}
