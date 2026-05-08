@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" alt="Marvel Logo">
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#novedades">Novedades</a></li>
+                <li><a class="nav-link" href="#multiverso">Multiverso</a></li>
+                <li><a class="nav-link" href="#suscribete">Suscríbete</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="novedades">
+            <h2>Últimas Novedades</h2>
+            <p>Entérate de los lanzamientos más recientes de los Avengers y los X-Men.</p>
+
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NzsDtHCdhGc?si=HcF25hAQjGUmDYYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="multiverso">
+            <h2>Explora el Multiverso</h2>
+            <p>Análisis profundo de las realidades alternativas y las variantes de tus héroes favoritos.</p>
+        </section>
+
+        <section id="suscribete">
+            <h2>Únete al Daily Bugle</h2>
+            <p>Recibe las noticias de Spider-Man directamente en tu correo.</p>
+            
+            <form id="form" action="https://www.freecodecamp.org/email-submit">
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="Ingresa tu correo arácnido" 
+                    required>
+                <input type="submit" id="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
